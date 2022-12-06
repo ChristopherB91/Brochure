@@ -28,10 +28,6 @@ body {
   grid-template-rows: 50px 1fr;
 }
 
-h2 {
-  grid-row: 1/2;
-}
-
 ul {
   grid-row: 2/3;
 }
@@ -42,8 +38,5 @@ ul {
   display: flex;
   justify-content: center;
   border: solid white 1px;
-}
-
-.col1 {
-  background-color: rgba(0, 0, 2, alpha);
+  grid-row: 1/2;
 }
