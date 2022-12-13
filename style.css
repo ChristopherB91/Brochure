@@ -40,3 +40,42 @@ ul {
   border: solid white 1px;
   grid-row: 1/2;
 }
+
+.col3,
+.prices {
+  border: green 3px solid;
+}
+
+.col2,
+.offers {
+  border: blue 3px solid;
+}
+
+.col1,
+.work {
+  border: red 3px solid;
+}
+
+.work,
+.offers,
+.prices {
+  font-size: 20px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+footer {
+  display: inline;
+}
+
+.fcontainer {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
