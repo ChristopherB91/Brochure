@@ -62,20 +62,17 @@ ul {
   font-size: 20px;
 }
 
-a {
-  color: black;
-}
-
+a,
 a:visited {
   color: black;
 }
 
 footer {
-  display: inline;
+  border: 5px solid purple;
 }
 
 .fcontainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 75px 85px 55px 75px;
   list-style: none;
-  justify-content: space-evenly;
 }
