@@ -1,20 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: grid;
   grid-template-rows: 600px 335px;
   padding: 0;
   margin: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .bg {
   background-image: url(/Imgs/Screenshot\ 2022-12-06\ 104411.png);
   grid-row: 1/2;
   grid-column: 1/2;
+  width: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .overlay {
-  background: rgba(72, 122, 180, 0.7);
+  background: rgba(0, 0, 0, 0.75);
   grid-row: 1/2;
   grid-column: 1/2;
   display: flex;
@@ -26,6 +36,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50px 1fr;
+  max-width: 100%;
 }
 
 ul {
@@ -37,23 +48,23 @@ ul {
 .col3 {
   display: flex;
   justify-content: center;
-  border: solid white 1px;
+  /* border: solid black 1px; */
   grid-row: 1/2;
 }
 
 .col3,
 .prices {
-  border: green 3px solid;
+  border: black 3px solid;
 }
 
 .col2,
 .offers {
-  border: blue 3px solid;
+  border: black 3px solid;
 }
 
 .col1,
 .work {
-  border: red 3px solid;
+  border: black 3px solid;
 }
 
 .work,
@@ -64,15 +75,27 @@ ul {
 
 a,
 a:visited {
-  color: black;
+  color: white;
 }
 
 footer {
-  border: 5px solid purple;
+  border: 5px solid black;
 }
 
 .fcontainer {
   display: grid;
-  grid-template-columns: 75px 85px 55px 75px;
+  grid-template-columns: 75px 85px 55px 75px 1fr;
   list-style: none;
+}
+
+@media screen and (max-width: 678px) {
+  .work,
+  .offers,
+  .prices {
+    font-size: 17.3px;
+  }
+
+  .col1,.col2,.col3{
+    font-size: small;
+  }
 }
