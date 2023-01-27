@@ -99,3 +99,9 @@ footer {
     font-size: small;
   }
 }
+
+@media screen and (max-width: 1030px) {
+  .bg{
+    background-image: url(/Imgs/Screenshot\ 2023-01-27\ at\ 2.28.49\ AM.png);
+  }
+}
