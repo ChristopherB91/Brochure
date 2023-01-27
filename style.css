@@ -12,7 +12,7 @@ body {
 }
 
 .bg {
-  background-image: url(/Imgs/Screenshot\ 2022-12-06\ 104411.png);
+  background-image: url(Imgs/Screenshot\ 2022-12-06\ 104411.png);
   grid-row: 1/2;
   grid-column: 1/2;
   width: 100%;
@@ -48,7 +48,6 @@ ul {
 .col3 {
   display: flex;
   justify-content: center;
-  /* border: solid black 1px; */
   grid-row: 1/2;
 }
 
@@ -102,6 +101,6 @@ footer {
 
 @media screen and (max-width: 1030px) {
   .bg{
-    background-image: url(/Imgs/Screenshot\ 2023-01-27\ at\ 2.28.49\ AM.png);
+    background-image: url(Imgs/Screenshot\ 2023-01-27\ at\ 2.28.49\ AM.png);
   }
 }
