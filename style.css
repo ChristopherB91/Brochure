@@ -84,7 +84,7 @@ footer {
 
 .fcontainer {
   display: grid;
-  grid-template-columns: 75px 85px 55px 75px 1fr;
+  grid-template-columns: 60px 75px 48px 52px 1fr;
   list-style: none;
 }
 
